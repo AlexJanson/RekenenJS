@@ -1,0 +1,21 @@
+.container {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    margin: 12.5% auto 0 auto;
+    background: orange;
+}
+
+.container > div {
+    text-align: center;
+}
+
+#content {
+    border: 1px solid black;
+}
+
+#footer {
+    background: none;
+    font-weight: bold;
+    padding: 10px;
+}

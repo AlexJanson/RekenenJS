@@ -1,0 +1,80 @@
+body{
+  background-color: aliceblue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.container {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 6.25% auto 0 auto;
+  background: orange;
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px 10px 50px 10px;
+}
+
+#myInput {
+  margin: 10px 0;
+}
+
+.container > div {
+  text-align: center;
+}
+
+.wrapper{
+  background-color: LemonChiffon;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 25%;
+  margin-top: 3%;
+  width: 50%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF00;
+  color: white;
+}
+
+th, td {
+  padding: 8px;
+}
+
+.wrong {
+  background: red;
+}
+
+.right {
+  background: green;
+}
+
+input {
+  display: none;
+}
+
+input[type=text] {
+  width: 100px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  padding: 3px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 80%;
+}
+
+#restartBtn {
+  display: none;
+}
